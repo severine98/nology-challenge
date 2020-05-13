@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi I'm Sev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/5bab8fcd17.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="top">
+        <nav id="nav">
+            <a href=#section-1>About me</a>
+            <a href=#section-2>Hobbies & interests</a>
+            <a href=#section-3>Why this course?</a>
+            <a href=#section-4>Let's chat</a>
+        </nav>
+        <h1 id="head">Hi, I'm Sev</h1>
+        <img id="sev" src="./sev.jpg" alt="sev">
+        <form id="happy">
+            <label for="mood">On a scale of 1 to 10, how are you feeling right now?</label>
+            <input id="mood" type="number" name="mood" min="1" max="10" placeholder="6">
+            <button onclick="getResultFromMoodScore()" type="button" class="btn btn-info">Submit</button>
+        </form>
+        <h5 id="result">
+            </h4>
+    </header>
+
+    <main>
+        <section id="section-1">
+            <h4>A bit about me</h4>
+            <p class="click">I am a French bilingual who lived in the suburbs of Paris for 12 years before moving to
+                London and obtaining my French Baccalaureat in Economics at the Lycee Francais Charles de Gaulle. In
+                July 2019, I received my degree in BSc Psychology from the University of Exeter. Since then, I have
+                moved back to London and worked in operations for IWG plc until February 2020. I spent the following
+                month backpacking accross Australia.</p>
+            <button id="button" type="button" class="btn btn-info">Click me to switch colours!!</button>
+        </section>
+
+        <section id="section-2">
+            <h4>My hobbies and interests</h4>
+            <p class="click">I have been playing badminton since the age of 7 and can't get enough! During my free
+                time I enjoy meeting up with friends, going out for drinks and trying out new foods...yum! I absolutely
+                love travelling and learning about new cultures, recently the kitchen has been my favourite destination.
+                Also, music is must for my day-to-day routine, festivals are where you'll
+                find me in the summer. </p>
+
+        </section>
+
+        <section id="section-3">
+            <h4>Why this course?</h4>
+            <p class="click">After realising I did not want to pursue Psychology as a career, I found an interest in
+                coding. I gave it a go and was surprised that I enjoyed it, as I feel like programming was absolutely
+                terrifying at first, anyone agree?
+                As I will not be spending my summer camping in some muddy festival, I have opdted for the next best
+                thing!!!
+                This course is the perfect starting point for my software development career! I am excited to learn new
+                skills and
+                meet new people!
+            </p>
+        </section>
+
+        <section id="section-4">
+            <h4 id="chat">Let's chat?</h4>
+            <form id='contact'>
+                <label for="first">First Name</label><br>
+                <input type='' name='first' id='' placeholder="Homer"><br>
+                <label for="second">Second Name</label><br>
+                <input type='' name='second' id='' placeholder="Simpson"><br>
+                <label for="message">Message</label><br>
+                <textarea name='message' id='text' cols='40' rows='10'
+                    placeholder="Ready to start the course?"></textarea>
+            </form>
+        </section>
+
+
+        <img id="grad" src="./sev-grad.jpg" alt="sev-grad">
+        <img id="drinks" src="./drinks.jpg" alt="drinks">
+        <img id="girl" src="girl2.jpg" alt="Picture of girl">
+        <img id="google" src="./google1.jpg" alt="google">
+
+        <footer>
+            <a href=https://www.linkedin.com/in/severine-legon-5b3580167/ target="blank"
+                class="fab fa-linkedin logo"></a>
+            <a href=https://www.facebook.com/severine.legon target="blank" class="fab fa-facebook-square logo"></a>
+            <a href=https://www.instagram.com/sev_legon/ target="blank" class="fab fa-instagram-square logo"></a>
+        </footer>
+    </main>
+</body>
+
+</html>
