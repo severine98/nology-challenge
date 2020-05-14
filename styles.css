@@ -1,0 +1,299 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    text-align: center;
+    font-size: 1.5em;
+    transition: top 0.3s;
+    z-index: 3;
+}
+
+nav a {
+    padding: 40px;
+    color: #4F6367;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+}
+
+#moodQuestion {
+    position: relative;
+    top: 160px;
+    left: 200px;
+}
+
+h5 {
+    position: relative;
+    top: 160px;
+    left: 250px;
+}
+
+header {
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: url(./green-snake-plant-on-white-ceramic-pot-1445416.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    ;
+}
+
+#hiImSev {
+    position: absolute;
+    bottom: 15%;
+    right: 280px;
+    color: white;
+    font-size: 80px;
+    font-family: 'Righteous', cursive;
+}
+
+#sev {
+    position: absolute;
+    right: 310px;
+    bottom: 40%;
+    border-radius: 50%;
+}
+
+main {
+    margin: 0px;
+    position: absolute;
+    z-index: -2;
+}
+
+h4 {
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 20px;
+    width: 700px;
+}
+
+.click {
+    color: #4F6367;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 250px;
+    padding-left: 110px;
+}
+
+.section-1 {
+    background-color: #9FA4A9;
+}
+
+.section-2 {
+    align-self: flex-end;
+    background-color: #B6A39E;
+}
+
+.section-3 {
+    align-self: flex-start;
+    background-color: #D4DFC7;
+}
+
+.section-4 {
+    background: url(./coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#grad {
+    position: absolute;
+    top: 0;
+    right: 200px;
+    width: 300px;
+    margin-top: 170px;
+    border-radius: 25px;
+}
+
+#drinks {
+    position: absolute;
+    top: 850px;
+    left: 200px;
+    width: 300px;
+    border-radius: 25px;
+}
+
+#girl {
+    position: absolute;
+    bottom: 870px;
+    right: 90px;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 1;
+}
+
+#girl:hover {
+    display: none;
+}
+
+#google {
+    position: absolute;
+    width: 330px;
+    border-radius: 30px;
+    bottom: 955px;
+    right: 165px;
+}
+
+#letsChat {
+    position: absolute;
+    bottom: 580px;
+    left: 350px;
+    font-size: 2em;
+}
+
+#contact {
+    width: 300px;
+    left: 61%;
+    bottom: 4%;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+    font-size: 1.3em;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    color: #99B2AE;
+    font-size: 50px;
+    letter-spacing: 50px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.logo:hover {
+    color: #4F6367;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    #moodQuestion {
+        width: 50vw;
+        font-size: 1.5em;
+    }
+    #result {
+        width: 50vw;
+    }
+    #hiImSev {
+        bottom: 30%;
+        right: 200px;
+    }
+    #sev {
+        right: 250px;
+    }
+    h4 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 25px;
+    }
+    section {
+        padding: 30px;
+        width: 100%;
+    }
+    #grad {
+        margin-top: 470px;
+        right: 240px;
+    }
+    #drinks {
+        left: 225px;
+        top: 1450px;
+    }
+    #girl {
+        bottom: 1170px;
+        right: 150px;
+    }
+    #google {
+        bottom: 1230px;
+        right: 220px;
+    }
+    #letsChat {
+        bottom: 880px;
+        left: 80px;
+    }
+    #contact {
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        font-size: 16px;
+        position: absolute;
+    }
+    #hiImSev {
+        font-size: 30px;
+        bottom: 80%;
+    }
+    #sev {
+        right: 50px;
+    }
+    #moodQuestion {
+        top: 410px;
+        left: 186px;
+        font-size: unset;
+    }
+    #result {
+        position: absolute;
+        left: 10%;
+        width: 300px;
+        top: 88%;
+    }
+    p {
+        width: 100%;
+        font-size: 20px;
+    }
+    #grad {
+        display: none;
+    }
+    #drinks {
+        left: 108px;
+        top: 1104px;
+        width: 145px;
+    }
+    #girl {
+        display: none;
+    }
+    #google {
+        display: none;
+    }
+    #letsChat {
+        display: none;
+    }
+    #contact {
+        left: 27%;
+        bottom: 92px;
+    }
+    #text {
+        width: 360px;
+    }
+}
